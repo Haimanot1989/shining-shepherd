@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@nanostores/react": "github:nanostores/react",
+    "@nanostores/solid": "^1.1.1",
     "astro": "^5.13.2"
   }
 }
