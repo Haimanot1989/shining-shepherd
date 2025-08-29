@@ -14,13 +14,6 @@ const result = await fetch('https://astro-frontend-masters-api.netlify.app/api/p
 if (!result.ok){
     console.error(result)
 }
-interface ShopItem{
-    image: {src: string, alt: string}
-    title: string
-    description: string
-    price: number
-}
-
 const shopItems: ShopItem[] = await result.json();
 ---
 
